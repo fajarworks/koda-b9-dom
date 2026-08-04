@@ -1,0 +1,41 @@
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.name label, .age label{
+    display: block;
+    font-size: 18px;
+
+}
+
+.name input, .age input {
+    width: 35%;
+    height: 20px;
+    border-radius: 5px;
+
+}
+
+.hobi label {
+    display: block;
+}
+
+
+
+
+button {
+    border: none;
+    background-color: steelblue;
+    width: 100px;
+    height: 25px;
+    border-radius: 6px;
+    color: white;
+}
+
