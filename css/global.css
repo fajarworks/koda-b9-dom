@@ -1,0 +1,59 @@
+
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;    
+    font-weight: 700;
+    position: sticky;
+    border-bottom: 2px solid black;
+    .hamburger {
+        width: 25px;
+    }
+
+
+}
+
+nav {
+    height: 30px;
+    display: flex;
+    ul {
+        margin-right: auto;
+        li{
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+    
+}
+
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+   
+    nav {
+        width: 100%;
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+        cursor: pointer;
+    }
+    .show {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 100%;
+        text-align: center;
+    }
+    ul {
+        padding: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+}
