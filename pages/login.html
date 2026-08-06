@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/login.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p>Fajar</p>
+        <nav class="hidden">
+            <ul style="list-style: none; display: flex; gap: 12px;">
+            <li><a href="../pages/celsius.html">Celcius</a></li>
+            <li><a href="../pages/calc.html">Calculator</a></li>
+            <li><a href="../pages/traffic.html">Traffic Light</a></li>
+            <li> <a href="../pages/fetch.html">Fetch Pokemon API</a></li>
+            </ul>
+        </nav>
+        <p class="btn-login">Login</p>
+    </header>
+    <main>
+        <section class="login">
+            <div>
+                <h1>LOGIN</h1>
+                <form action="">
+                    <div>
+                        <label for="name">Name :</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div>
+                        <label for="password">Password : </label>
+                        <div class="input-password">
+                            <input type="password" id="password" name="password">
+                            <img class="eye" src="../assets/eye-open.svg"alt="">
+                        </div>
+                        <p class="pass transparent">password harus lebih dari 8 karakter!</p>
+                </div>
+                <button type="submit">Login</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
