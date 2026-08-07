@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+    <script src="/js/navbar.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="/js/movie.js" defer></script>
+    <link rel="stylesheet" href="/css/global.css">
+    <title>Movie Detail | Koda B9 DOM</title>
+</head>
+<body>
+        <header>
+        <p>Fajar</p>
+        <nav class="hidden">
+            <ul style="list-style: none; display: flex; gap: 12px;">
+            <li><a href="../pages/celsius.html">Celcius</a></li>
+            <li><a href="../pages/calc.html">Calculator</a></li>
+            <li><a href="../pages/traffic.html">Traffic Light</a></li>
+            <li> <a href="../pages/fetch.html">Fetch Pokemon API</a></li>
+            </ul>
+        </nav>
+        <p class="btn-login">Login</p>
+    </header>
+    <main class="min-h-screen">
+   <section class="flex max-w-7xl flex-col mx-auto px-4 md:px-6">
+    <div class="flex flex-col md:flex-row gap-6 p-4 md:p-6">
+
+        <div class="poster w-full md:w-80 lg:w-50 rounded-lg overflow-hidden shrink-0">
+            <img 
+                src="" 
+                alt=""
+                class="w-full object-cover"
+            >
+        </div>
+        <div class="info flex flex-col  gap-1.5">
+            <div class="genres flex flex-wrap gap-2"></div>
+            <p class="text-2xl md:text-3xl font-black"></p>
+            <div class="flex gap-2 items-center">
+                <span></span>
+                <img src="/assets/star.svg" alt="" class="w-5">
+                <img src="/assets/imdb.svg" alt="" class="w-12">
+            </div>
+            <p class="text-sm md:text-base"></p>
+            <p class="text-sm md:text-base"></p>
+            <p class="text-sm md:text-base"></p>
+            <div>
+                <span class="border rounded-full px-2">ADD TO WISHLIST</span>
+            </div>
+        </div>
+        
+    </div>
+</section>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
